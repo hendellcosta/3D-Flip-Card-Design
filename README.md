@@ -2,7 +2,7 @@
 
 Hey Guys!
 
-That's my final project for a flip card design on to practice. Made with HTML, CSS and JavaScript.
+That's my final project for a flip card design only to practice. Made with HTML, CSS and JavaScript.
 
 
 <div class="Title">
