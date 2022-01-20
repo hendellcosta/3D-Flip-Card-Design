@@ -1,2 +1,11 @@
-# 3D-Flip-Card-Design
- That's my final project for a flip card design on to practice. Made with HTML, CSS and JavaScript
+# 3D Flip Card Design
+
+Hey Guys!
+
+That's my final project for a flip card design on to practice. Made with HTML, CSS and JavaScript.
+
+
+<div class="Title">
+<h1> Technologies: </h1>
+<p> HTML, CSS e JavaScript </p>
+</div>
