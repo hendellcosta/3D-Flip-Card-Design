@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Flip Card Design</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="product">
+
+            <img src="./assets/images/shoes.png" alt="Shoe 1 Image" id="firstImg">
+            <img src="./assets/images/shoes2.png" alt="Shoe 2 Image" id="secondImg">
+
+            <div class="product-inner" id="productBox">
+                <div class="product-front">
+                    <div class="product-top">
+                        <h1>Nike</h1>
+                    </div>
+                    <div class="product-bottom">
+                        <p>Nike running shoes</p>
+                        <h2>Air Zoom Winflo 6</h2>
+                        <h1><span>$</span>125</h1>
+                        <button type="button">Add to Cart</button>
+                        <div class="select-color">
+                            <div class="select-item">
+                                <img src="./assets/images/shoes-icon.png" alt="Shoes 1">
+                            </div>
+                            <div class="select-item">
+                                <img src="./assets/images/shoes-icon2.png" alt="Shoes 2" onClick="moveToRight()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-back">
+                    <div class="product-top product-top2">
+                        <h1>Nike</h1>
+                    </div>
+                    <div class="product-bottom" id="product-bottom2">
+                        <p>Nike running shoes</p>
+                        <h2>Air Zoom Winflo 6</h2>
+                        <h1><span>$</span>125</h1>
+                        <button type="button">Add to Cart</button>
+                        <div class="select-color">
+                            <div class="select-item" id="select-item2">
+                                <img src="./assets/images/shoes-icon.png" alt="Shoes 1" onClick="moveToLeft()">
+                            </div>
+                            <div class="select-item" id="select-item2">
+                                <img src="./assets/images/shoes-icon2.png" alt="Shoes 2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-side"></div>
+                <div class="right-side"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
