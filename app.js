@@ -18,3 +18,5 @@ function moveToLeft(){
 
 var firstImg = document.getElementById("firstImg")
 var secondImg = document.getElementById("secondImg")
+
+// Hendell Costa
