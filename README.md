@@ -9,3 +9,5 @@ That's my final project for a flip card design only to practice. Made with HTML,
 <h1> Technologies: </h1>
 <p> HTML, CSS e JavaScript </p>
 </div>
+
+<!-- Hendell Costa -->
